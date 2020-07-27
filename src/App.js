@@ -36,7 +36,6 @@ class App extends Component {
           handleChange={ this.handleChange }
         />
         <CardList monsters={ filteredMonsters } />
-        <p>2020</p>
       </div>
     );
   }
